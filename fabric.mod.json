@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "cometa",
+  "version": "0.1",
+  "name": "Cometa",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "cometa.xyz.Cometa"
+    ]
+  },
+  "mixins": [
+    "cometa.mixins.json"
+  ],
+  "accessWidener": "cometa.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.19.1",
+    "fabric-api": "*",
+    "minecraft": "1.21.11"
+  }
+}
